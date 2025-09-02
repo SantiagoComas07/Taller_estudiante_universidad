@@ -80,4 +80,9 @@ body{
 .img-series{
     width:10rem;
     border-radius: 0.1rem;
+    transform: all 1.2s ease;
+}
+
+.img-series:hover{
+    transform: scale(1.1);
 }
