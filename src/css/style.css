@@ -1,88 +1,104 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
 
-body{
+body {
     box-sizing: border-box;
-    background-color:rgb(244, 244, 244);
+    background-color: rgb(244, 244, 244);
     font-family: "TASA Orbiter", sans-serif;
 }
 
 
-.main-container{
-    width:100%;
+.main-container {
+    width: 100%;
     height: auto;
 }
 
-.box-container{
+.box-container {
     width: 60%;
     padding: 2rem;
-    border-radius:0.2rem;
+    border-radius: 0.2rem;
     margin: auto;
     margin-top: 3rem;
     background-color: whitesmoke;
     box-shadow: 1px 1px 10px rgb(32, 88, 54);
 }
 
-.box-header{
+.box-subcontainer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img-graduation-main {
+    width: 20%;
+    opacity: 40%;
+    transform: rotate(20deg);
+}
+
+
+
+.box-header {
     width: 100%;
     display: flex;
     gap: 0.7rem;
 }
-.box-header h1{
-    color:green; 
+
+.box-header h1 {
+    color: green;
 }
-.img-user{
+
+.img-user {
     width: 2.5rem;
 }
 
-.propiedad{
-    color:green;
+.propiedad {
+    color: green;
     font-weight: bold;
 }
 
-.box-title-series{
-    display:flex;
-    gap:0.2rem;
-}
-
-.box-title-series h2{
-    color:green;
-    font-weight: bold;
-}
-
-.icon-serie{
-    width:1.9rem;
-    gap:0.2rem;
-
-
-}
-
-
-
-.box-info{
+.box-title-series {
     display: flex;
+    gap: 0.2rem;
+}
+
+.box-title-series h2 {
+    color: green;
+    font-weight: bold;
+}
+
+.icon-serie {
+    width: 1.9rem;
+    gap: 0.2rem;
+
+
+}
+
+.box-info {
+    display: flex;
+    margin-top: 1rem;
     flex-direction: column;
-    gap: 0.5rem;;
-        padding: 0.4rem;
+    gap: 0.5rem;
+    ;
+    padding: 0.4rem;
 }
 
-.box-img-container{
-    display:flex;
+.box-img-container {
+    display: flex;
     justify-content: center;
-    margin-top:1rem;
+    margin-top: 1rem;
     flex-wrap: wrap;
-    gap:4px;
+    gap: 4px;
 }
 
-.img-series{
-    width:10rem;
+.img-series {
+    width: 10rem;
     border-radius: 0.1rem;
     transform: all 1.2s ease;
 }
 
-.img-series:hover{
+.img-series:hover {
     transform: scale(1.1);
 }
