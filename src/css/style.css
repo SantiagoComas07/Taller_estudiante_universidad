@@ -43,11 +43,24 @@ body{
     font-weight: bold;
 }
 
+.box-title-series{
+    display:flex;
+    gap:0.2rem;
+}
 
-.box-container h2{
+.box-title-series h2{
     color:green;
     font-weight: bold;
 }
+
+.icon-serie{
+    width:1.9rem;
+    gap:0.2rem;
+
+
+}
+
+
 
 .box-info{
     display: flex;
