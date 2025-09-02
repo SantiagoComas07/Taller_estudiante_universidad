@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    box-sizing: border-box;
+    background-color:rgb(244, 244, 244);
+}
+
+
+.main-container{
+    width:100%;
+    height: auto;
+}
+
+.box-container{
+    width: 80%;
+    padding: 2rem;
+    border-radius:0.2rem;
+    margin: auto;
+    margin-top: 3rem;
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 20px grey;
+}
+
+.box-img-container{
+    display:flex;
+    flex-wrap: wrap;
+    gap:4px;
+}
+
+.img-series{
+    width:10rem;
+}
