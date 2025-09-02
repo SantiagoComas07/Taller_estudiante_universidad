@@ -46,6 +46,7 @@ body{
 
 .box-container h2{
     color:green;
+    font-weight: bold;
 }
 
 .box-info{
@@ -65,4 +66,5 @@ body{
 
 .img-series{
     width:10rem;
+    border-radius: 0.1rem;
 }
